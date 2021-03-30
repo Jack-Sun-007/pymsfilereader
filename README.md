@@ -184,7 +184,7 @@ print('GetSeqRowBarcodeStatus', rawfile.GetSeqRowBarcodeStatus())
 # # # # # # # "View/Report/Sample Information" END
 print('GetNumStatusLog', rawfile.GetNumStatusLog())
 print('GetStatusLogForScanNum')  # "View/Report/Status Log"
-pprint(rawfile.GetStatusLogForScanNum(scan_number))
+print(rawfile.GetStatusLogForScanNum(scan_number))
 print('GetStatusLogForPos(position=0)', rawfile.GetStatusLogForPos(position=0))
 print('GetStatusLogForPos(position=1)', rawfile.GetStatusLogForPos(position=1))
 print('GetStatusLogPlottableIndex()', rawfile.GetStatusLogPlottableIndex())
